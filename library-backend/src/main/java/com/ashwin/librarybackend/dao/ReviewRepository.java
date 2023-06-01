@@ -15,5 +15,5 @@ public interface ReviewRepository extends JpaRepository<Review, Long> {
                               Pageable pageable);
 
     Review findByUserEmailAndBookId(String userEmail, Long bookId);
-    
+
 }

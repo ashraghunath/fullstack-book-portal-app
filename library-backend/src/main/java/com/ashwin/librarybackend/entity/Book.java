@@ -1,9 +1,9 @@
 package com.ashwin.librarybackend.entity;
 
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import lombok.Data;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "book")
