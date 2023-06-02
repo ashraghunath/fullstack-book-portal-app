@@ -10,8 +10,9 @@ import { SearchBooksPage } from './layouts/SearchBooksPage/SearchBooksPage';
 import { BookCheckoutPage } from './layouts/BookCheckoutPage/BookCheckoutPage';
 import { oktaConfig } from './lib/OktaConfig';
 import { OktaAuth, toRelativeUrl } from '@okta/okta-auth-js';
-import { Security, LoginCallback } from '@okta/okta-react';
+import { Security, LoginCallback, SecureRoute } from '@okta/okta-react';
 import LoginWidget from './Auth/LoginWidget';
+import { PaymentPage } from './layouts/PaymentPage/PaymentPage';
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
@@ -50,6 +51,7 @@ function App() {
             } 
           />
           <Route path='/login/callback' component={LoginCallback} />
+          <SecureRoute path='/fees'> <PaymentPage/> </SecureRoute>
         </Switch>
       </div>
       <Footer />
