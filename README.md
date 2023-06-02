@@ -10,6 +10,24 @@ A full-stack application built for renting books.
 - Stripe for Payment Integration
 - HTTPS with a self-signed key for secure communication
 
+## Screenshots
+
+### Landing Page
+
+![localhost_3000_home](https://github.com/ashraghunath/fullstack-book-portal-app/assets/42038573/27429342-1f18-4684-88bb-19684bc52a1f)
+
+### Explore Books
+
+![localhost_3000_home (1)](https://github.com/ashraghunath/fullstack-book-portal-app/assets/42038573/437736fd-7127-4dae-8cfb-2a625d75db1b)
+
+### Book Details
+
+![localhost_3000_home (2)](https://github.com/ashraghunath/fullstack-book-portal-app/assets/42038573/4f64edc4-d323-4c70-8d8b-bf44d94ccb54)
+
+### Payment With Stripe
+
+<img width="549" alt="Screenshot 2023-06-02 at 3 34 37 PM" src="https://github.com/ashraghunath/fullstack-book-portal-app/assets/42038573/33cd306a-f31c-46d5-9975-bc040993bdac">
+
 ## Setup
 
 ### Frontend Setup
