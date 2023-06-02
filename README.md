@@ -3,7 +3,7 @@
 A full-stack application built for renting books. 
 
 ## Table of Contents
-- [Technologies Used](#Technologies Used)
+- [Technologies Used](#Technologies-Used)
 - [Screenshots](#Screenshots)
 - [Setup](#Setup)
 - [Usage](#Usage)
